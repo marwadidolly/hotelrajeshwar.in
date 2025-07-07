@@ -1,0 +1,28 @@
+nav ul li a {
+  color: #2563eb; /* normal blue */
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #1e3a8a; /* dark blue on hover */
+}
+
+/* Highlight Book Now page */
+nav ul li a[href="booking.html"] {
+  font-weight: bold;
+}
+
+/* Booking heading hover handled via tailwind in HTML */
+
+/* Form fields hover */
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+form button {
+  transition: background-color 0.3s ease;
+}
