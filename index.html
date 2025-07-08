@@ -12,7 +12,7 @@
 
   <style>
     .hero {
-      background-image: url('IMG_20240708_194215.jpg'); /* ✅ New image */
+      background-image: url('IMG_3526.JPG'); /* Make sure this image is in the same folder */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -63,8 +63,7 @@
     <div class="text-white text-xl font-bold">Hotel Rajeshwar</div>
     <button id="menuToggle" class="text-white focus:outline-none md:hidden">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
       </svg>
     </button>
     <nav id="mobileMenu" class="hidden absolute top-full left-0 w-full bg-black bg-opacity-90 text-white md:hidden">
@@ -90,25 +89,22 @@
     <div class="hero-content">
       <h1 class="text-5xl md:text-7xl font-extrabold mb-4">Welcome to Hotel Rajeshwar</h1>
       <p class="text-xl md:text-2xl mb-6">Luxury & Comfort in Gadarwara</p>
-      <a href="booking.html"
-         class="bg-white text-indigo-700 px-8 py-3 rounded-full shadow-lg transition duration-300 hover:bg-indigo-100">Book Now</a>
+      <a href="booking.html" class="bg-white text-indigo-700 px-8 py-3 rounded-full shadow-lg transition duration-300 hover:bg-indigo-100">Book Now</a>
     </div>
   </section>
 
-  <!-- Hotel Info Section -->
+  <!-- Hotel Info -->
   <section class="py-20 bg-gradient-to-b from-white to-blue-50" data-aos="fade-up">
     <div class="max-w-5xl mx-auto px-6 text-center">
       <h2 class="text-4xl font-bold text-indigo-800 mb-10">Hotel Information</h2>
       <div class="grid md:grid-cols-2 gap-6">
-        <div class="info-box bg-white p-6 rounded-xl shadow-md text-left transition duration-300"
-             data-aos="fade-right">
+        <div class="info-box bg-white p-6 rounded-xl shadow-md text-left transition duration-300" data-aos="fade-right">
           <h3 class="text-xl font-semibold mb-2">📍 Location</h3>
           <p>WQ9P+625 Bhama Ward, Gadarwara, Madhya Pradesh 487551</p>
           <h3 class="text-xl font-semibold mb-2 mt-4">🕒 Timings</h3>
           <p>Check-in: 12:00 PM<br>Check-out: 12:00 PM</p>
         </div>
-        <div class="info-box bg-white p-6 rounded-xl shadow-md text-left transition duration-300"
-             data-aos="fade-left">
+        <div class="info-box bg-white p-6 rounded-xl shadow-md text-left transition duration-300" data-aos="fade-left">
           <h3 class="text-xl font-semibold mb-2">🏨 Room Types</h3>
           <ul class="list-disc ml-6">
             <li>Standard Non-AC: ₹1000</li>
@@ -122,16 +118,16 @@
     </div>
   </section>
 
-  <!-- Location Section -->
+  <!-- Location Map -->
   <section class="py-12 bg-white" data-aos="fade-up">
     <h2 class="text-3xl font-bold text-center text-indigo-800 mb-6">📌 Our Location</h2>
     <div class="flex justify-center">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.49417911949!2d78.79013997486397!3d22.464302235116116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981d0fb934dba0d%3A0xdf4053db7636f2c7!2sHotel%20Rajeshwar!5e0!3m2!1sen!2sin!4v1720350642463!5m2!1sen!2sin"
-        width="600"
-        height="400"
-        style="border:0; border-radius: 16px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);"
-        allowfullscreen=""
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.158203905056!2d79.3895282!3d22.7511329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3984fa551f40c7cd%3A0xa2a9e7a4e0574a82!2sHotel%20Rajeshwar%2C%20Bhama%20Ward%2C%20Gadarwara%2C%20Madhya%20Pradesh%20487551!5e0!3m2!1sen!2sin!4v1688534095062!5m2!1sen!2sin" 
+        width="600" 
+        height="400" 
+        style="border:0; border-radius: 16px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);" 
+        allowfullscreen="" 
         loading="lazy">
       </iframe>
     </div>
@@ -144,7 +140,7 @@
     </div>
   </footer>
 
-  <!-- JS -->
+  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
